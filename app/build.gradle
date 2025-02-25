@@ -111,6 +111,8 @@ dependencies {
     androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"
     androidTestImplementation "androidx.test.espresso:espresso-contrib:$rootProject.espressoVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation "androidx.compose.ui:ui-test-junit4-android:1.7.8"
+    debugImplementation "androidx.compose.ui:ui-test-manifest:1.7.8"
 
     // Compose testing dependencies
     androidTestImplementation "androidx.compose.ui:ui-test"
