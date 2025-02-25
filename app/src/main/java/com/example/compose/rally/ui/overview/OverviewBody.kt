@@ -65,6 +65,12 @@ import com.example.compose.rally.ui.components.RallyDivider
 import com.example.compose.rally.ui.components.formatAmount
 import com.example.compose.rally.ui.theme.RallyTheme
 import java.util.Locale
+import androidx.compose.animation.core.VectorConverter
+import androidx.compose.animation.core.animateValue
+import androidx.compose.animation.core.infiniteRepeatable
+import androidx.compose.animation.core.rememberInfiniteTransition
+import androidx.compose.animation.core.tween
+
 
 @Composable
 fun OverviewBody(onScreenChange: (RallyScreen) -> Unit = {}) {
